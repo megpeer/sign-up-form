@@ -1,0 +1,11 @@
+body{
+    display: flex;
+}
+.sidebar{
+    background-image: url("BG_img.png");
+    background-size: 100vh, 100vw;
+    background-color: #cccccc;
+}
+#formfields {
+    display: flex;
+}
