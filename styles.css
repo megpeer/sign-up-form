@@ -1,11 +1,45 @@
+* {
+    border: 1px solid grey;
+    --main-color: black;
+    --accent-color: #596D48;
+    --light-color: white;
+    --light-accent: #efefef;
+}
+
 body{
     display: flex;
+    background-color: var(--light-accent);
+    text-decoration: none;
 }
 .sidebar{
     background-image: url("BG_img.png");
     background-size: 100vh, 100vw;
-    background-color: #cccccc;
-}
-#formfields {
+    color: var(--light-color);
+    max-width: 30vw;
     display: flex;
+    flex-flow: column;
+    
+}
+.odin{
+    flex: auto;
+    align-items: center;
+}
+#odin{  
+
+    max-height: 1em;
+}
+
+.main_page{
+    margin: 2vw, 2vh;
+}
+
+.formfields {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-color);
+    box-shadow: 10px 5px 5px black;
+}
+
+#create_account {
+    background-color: var(--accent-color);
 }
