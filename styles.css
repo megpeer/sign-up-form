@@ -13,20 +13,40 @@ body{
 }
 .sidebar{
     background-image: url("BG_img.png");
-    background-size: 100vh, 100vw;
+    background-size: 30vw;
     color: var(--light-color);
-    max-width: 30vw;
-    display: flex;
+    width: 30vw; 
+    position: relative;
+    /* max-width:40vw; */
+    /* display: flex;
     flex-flow: column;
-    
+   align-items: center;
+   justify-content: center; */
 }
-.odin{
-    flex: auto;
-    align-items: center;
-}
-#odin{  
 
-    max-height: 1em;
+.odin{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    align-items: center;
+    flex-shrink: inherit;
+    position: absolute;
+    bottom: 50%;
+    height: 50px;
+    width: 100%;
+}
+
+#odin{  
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.credit{
+    font-size: 0.875em;
+    position: absolute;
+    bottom: 0;
 }
 
 .main_page{
